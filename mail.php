@@ -11,7 +11,8 @@ $subject = "Mail From G&B website";
 $txt ="Name = ". $name . "\r\n Email = " . $email . "\r\n Mobile = ". $number ."\r\n Message =" . $message;
 
 $headers = "From: noreply@gbvirtusattoney.com" . "\r\n" .
-"CC: somebodyelse@example.com";
+"CC: ";
+
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
