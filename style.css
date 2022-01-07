@@ -139,7 +139,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Global Styles */
 /* line 5, sass/libs/_global.scss */
-body { font-family: Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 1.5; color: #888; background-image: url(images/backk.jpg); }
+body { font-family: Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 1.5; color: #888; background-image: url(images/back.jpg); }
 
 /* line 17, sass/libs/_global.scss */
 h1, h2, h3, h4, h5, h6 { margin-top: 0; color: #FFFFFF; font-family: "Novecento Sans", "Open Sans", sans-serif; font-weight: 600; text-transform: uppercase; }

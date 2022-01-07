@@ -12,7 +12,7 @@ $txt ="Name = ". $name . "\r\n Email = " . $email . "\r\n Mobile = ". $number ."
 
 $headers = "From: noreply@my-website-in-web.herokuapp.com/" . "\r\n" .
 "CC: somebodyelse@example.com";
-if($email!=NULL){
+if($email != NULL){
     mail($to,$subject,$txt,$headers);
 }
 //redirect
