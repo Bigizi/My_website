@@ -10,7 +10,7 @@ $to = "bigizinduwayo@gmail.com";
 $subject = "Mail From G&B website";
 $txt ="Name = ". $name . "\r\n Email = " . $email . "\r\n Mobile = ". $number ."\r\n Message =" . $message;
 
-$headers = "From: noreply@heroku.com" . "\r\n" .
+$headers = "From: noreply@my-website-in-web.herokuapp.com/" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
