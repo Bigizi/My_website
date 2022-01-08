@@ -350,7 +350,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
   .contact-form #name { background-image: url("images/icon-user@2x.png"); background-size: 16px 18px; } }
 /* line 399, sass/libs/_components.scss */
 .contact-form #email { background-image: url("images/icon-envelope-alt.png"); }
-.contact-form #phone { background-image: url("images/phone-line.png"); }
+.contact-form #phone { background-image: url("images/phone.png"); }
 @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) { /* line 399, sass/libs/_components.scss */
   .contact-form #email { background-image: url("images/icon-envelope-alt@2x.png"); background-size: 16px 11px; } }
 /* line 400, sass/libs/_components.scss */
